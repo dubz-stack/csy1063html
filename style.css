@@ -14,11 +14,30 @@ body {
     background-color: #121212;
     color: #e0e0e0;
 }
+p {
+    font-size : 16px;
+    text-align: center;
+}
 /* HEADER AND NAVIGATION */
 header {
     background-color: #1f1f1f;
     padding: 20px;
     text-align: center;
+}
+h1 {
+    font-size : 28px;
+    margin: 0;
+    color: #ffffff;
+}
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+h3 {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
 }
 /* LOGO STYLING OF NAVIGATION */
 nav {
