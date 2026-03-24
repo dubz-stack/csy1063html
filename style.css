@@ -1,4 +1,4 @@
-
+/* Sion Worrell - Business Computing -  Website development */
 
 
 
@@ -55,7 +55,9 @@ nav a:hover {
 /* MAIN CONTENT AREA */
 .container {
     padding : 20px;
-   
+   max-width: 900px;   
+  margin: 0 auto;     
+
     
 }
 /*STYLE FOR PROJECTS AND VIDEO POSTS */
@@ -66,30 +68,54 @@ nav a:hover {
    
 }
 
-/* FORM STYLING (SEPARATE) */
+/* FORM STYLING  */
 form {
-    display: block;
+  display: block;
+  max-width: 300px;  
+  margin: 20px auto;  
+  font-family: Arial, sans-serif;
 }
 
+/* Labels */
+label {
+  display: block;       
+  font-size: 14px;      
+  margin-bottom: 3px;   
+  color: #e0e0e0;
+}
+
+/* Inputs and textarea */
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    background-color: #333;
-    border: none;
-    color: #e0e0e0;
-    border-radius: 5px;
+  width: 100%;         
+  padding: 5px;        
+  margin-bottom: 12px;  
+  background-color: #333;
+  border: none;
+  color: #e0e0e0;
+  border-radius: 5px;
+  font-size: 14px;     
+  box-sizing: border-box; 
 }
 
-input[type="submit"] {
-    background-color: #bb86fc;
-    color: black;
-    cursor: pointer;
+/* Textarea specific height */
+textarea {
+  height: 80px;
+  resize: vertical; 
 }
 
-input[type="submit"]:hover {
-    background-color: #9a67ea;
+/* Button styling */
+button {
+  padding: 6px 12px;
+  font-size: 14px;      
+  background-color: #bb86fc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a67ea;
 }
 
 /* PROJECT GRID (FOR PROJECT PAGE ONLY) */
